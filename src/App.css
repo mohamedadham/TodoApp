@@ -20,9 +20,9 @@
 .todo-text{
     color: #282c34;
     display: inline-block;
-    width:80%;
+    width:75%;
     font-size: 18px;
-    word-break: break-word;
+    word-break: break-all;
 }
 .todo-items{
     display: flex;

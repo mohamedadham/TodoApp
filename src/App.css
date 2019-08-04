@@ -10,7 +10,7 @@
   color: white;
 }
 .App{
-    width: 40vw;
+    width: 30vw;
     background-color: #fff;
     min-height: 50vh;
     padding-bottom: 5vmin;
@@ -76,3 +76,13 @@ header{
         min-height:48px;
         padding:1.5em;
         }
+
+
+
+@media only screen and (max-width: 600px){
+    .App{
+        width:80vw;
+    }
+    
+    
+}

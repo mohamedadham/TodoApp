@@ -59,8 +59,8 @@ class App extends React.Component {
             
             </header>
             <form  onSubmit={this.handleSubmit}>
-                <input style={{minWidth:'40vmin',minHeight:'48px',fontSize:'20px'}} type="text"  value={this.state.todoText} name="todoText" onChange={this.handleChange}/> 
-                <button>  Add</button>
+                <input style={{minWidth:'50%',minHeight:'48px',fontSize:'20px'}} type="text"  value={this.state.todoText} name="todoText" onChange={this.handleChange}/> 
+                <button>  Add </button>
             </form>
              <div className="todo-items">
            { todoData.map(item=><TodoItem item={item} handleCheckbox={this.handleCheckbox} key={item.id}/>) }

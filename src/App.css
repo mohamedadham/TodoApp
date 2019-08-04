@@ -20,9 +20,9 @@
 .todo-text{
     color: #282c34;
     display: inline-block;
-    width:55%;
-    font-size: 20px;
-    word-break: break-all;
+    width:80%;
+    font-size: 18px;
+    word-break: break-word;
 }
 .todo-items{
     display: flex;
@@ -33,7 +33,7 @@
 
 .svg-inline--fa{
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 5px;
     
 }
 header{
@@ -51,7 +51,7 @@ header{
     align-items: center;
 }
 .option{
-    width:10%;
+    width:20%;
     display: flex;
     
 }

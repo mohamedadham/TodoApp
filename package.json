@@ -1,7 +1,12 @@
 {
+  "homepage": "http://mohamedadham.github.io/TodoApp",
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
+    "engines": {
+    "npm": "5.7.1",
+    "node": "8.10.0"
+  }, 
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -11,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+   "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.0"
   }
 }

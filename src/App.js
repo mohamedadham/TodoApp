@@ -18,7 +18,7 @@ class App extends React.Component {
       const{todoText,todoData,id}=this.state
       this.setState({id:this.state.id+1})
         todoData.push({text:todoText,completed:false,id:this.state.id,italic:false})
-        this.setState({todoData:todoData})
+        this.setState({todoData:todoData,todoText:''})
         
     }
     
